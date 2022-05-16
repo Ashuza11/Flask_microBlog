@@ -1,9 +1,9 @@
+import email
 from app import db
 from datetime import datetime
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import UserMixin
 from app import login
-
 
 
 class User(UserMixin, db.Model):
@@ -39,3 +39,4 @@ class Post(db.Model):
 def load_user(id):
     return User.query.get(int(id))
     
+
