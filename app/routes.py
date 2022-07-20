@@ -1,5 +1,3 @@
-from crypt import methods
-from turtle import title
 from flask import render_template, flash, redirect, url_for, request
 from app import app, db
 from app.models import User, Post
@@ -60,3 +58,6 @@ def register():
 @app.shell_context_processor
 def make_shell_context():
     return {'db': db, 'User': User, 'Post': Post}
+
+
+    
