@@ -23,3 +23,6 @@ class Config(object):
 
     # Number of posts per a page 
     POST_PER_PAGE = 5
+
+    # App Suported languages 
+    LANGUAGES = ['en', 'fr', 'sw']

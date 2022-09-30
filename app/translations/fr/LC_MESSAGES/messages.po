@@ -1,0 +1,655 @@
+# French translations for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-09-29 17:27+0200\n"
+"PO-Revision-Date: 2022-09-27 16:02+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: app/__init__.py:28
+msgid "Please log in to access this page."
+msgstr ""
+
+#: app/forms.py:10 app/forms.py:18 app/forms.py:38
+msgid "Username"
+msgstr ""
+
+#: app/forms.py:11 app/forms.py:73
+msgid "Password"
+msgstr ""
+
+#: app/forms.py:12
+msgid "Remember Me"
+msgstr ""
+
+#: app/forms.py:13 app/templates/login.html:5
+msgid "Sign In"
+msgstr ""
+
+#: app/forms.py:19 app/forms.py:67
+msgid "Email"
+msgstr ""
+
+#: app/forms.py:20
+msgid "password"
+msgstr ""
+
+#: app/forms.py:21 app/forms.py:74
+msgid "Repeat Password"
+msgstr ""
+
+#: app/forms.py:22 app/templates/register.html:5
+msgid "Register"
+msgstr ""
+
+#: app/forms.py:28 app/forms.py:50
+msgid "Please use a different username."
+msgstr ""
+
+#: app/forms.py:34
+msgid "Please use a different email address."
+msgstr ""
+
+#: app/forms.py:39
+msgid "About me"
+msgstr ""
+
+#: app/forms.py:40 app/forms.py:55 app/forms.py:62
+msgid "Submit"
+msgstr ""
+
+#: app/forms.py:59
+msgid "Say something"
+msgstr ""
+
+#: app/forms.py:68 app/forms.py:75
+msgid "Request Password Reset"
+msgstr ""
+
+#: app/routes.py:34
+msgid "Your post is now live!"
+msgstr ""
+
+#: app/routes.py:55
+msgid "Invalid username or password"
+msgstr ""
+
+#: app/routes.py:81
+msgid "Congratilation, you are now a registered user!"
+msgstr ""
+
+#: app/routes.py:109
+msgid "Your changies have been saved."
+msgstr ""
+
+#: app/routes.py:123 app/routes.py:142
+#, python-format
+msgid "User %(username)s not found."
+msgstr ""
+
+#: app/routes.py:126
+msgid "You cannot follow yourself!"
+msgstr ""
+
+#: app/routes.py:130
+#, python-format
+msgid "You are following %(username)s!"
+msgstr ""
+
+#: app/routes.py:149
+#, python-format
+msgid "You are not following %(username)s."
+msgstr ""
+
+#: app/routes.py:178
+msgid "Check your email for the instructions to reset your password"
+msgstr ""
+
+#: app/routes.py:195
+msgid "Your password has been reset."
+msgstr ""
+
+#: app/templates/404.html:4
+msgid "Not Found"
+msgstr ""
+
+#: app/templates/500.html:4
+msgid "An unexpected error has occurred"
+msgstr ""
+
+#: app/templates/500.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr ""
+
+#: app/templates/_post.html:14
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr ""
+
+#: app/templates/base.html:21
+msgid "Home"
+msgstr ""
+
+#: app/templates/base.html:22
+msgid "Explore"
+msgstr ""
+
+#: app/templates/base.html:26
+msgid "Login"
+msgstr ""
+
+#: app/templates/base.html:28
+msgid "Profile"
+msgstr ""
+
+#: app/templates/base.html:29
+msgid "Logout"
+msgstr ""
+
+#: app/templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr ""
+
+#: app/templates/index.html:5
+#, python-format
+msgid "Hi, %(username)s!"
+msgstr ""
+
+#: app/templates/index.html:17 app/templates/user.html:41
+msgid "Newer posts"
+msgstr ""
+
+#: app/templates/index.html:22 app/templates/user.html:46
+msgid "Older posts"
+msgstr ""
+
+#: app/templates/login.html:12
+msgid "New User?"
+msgstr ""
+
+#: app/templates/login.html:12
+msgid "Click to Register!"
+msgstr ""
+
+#: app/templates/login.html:14
+msgid "Forgot Your Password?"
+msgstr ""
+
+#: app/templates/login.html:15
+msgid "Click to Reset It"
+msgstr ""
+
+#: app/templates/reset_password.html:5
+msgid "Reset Your Password"
+msgstr ""
+
+#: app/templates/reset_password_request.html:5
+msgid "Reset Password"
+msgstr ""
+
+#: app/templates/user.html:8
+msgid "User"
+msgstr ""
+
+#: app/templates/user.html:11
+msgid "Last seen on"
+msgstr ""
+
+#: app/templates/user.html:13
+#, python-format
+msgid "%(count)d followers"
+msgstr ""
+
+#: app/templates/user.html:13
+#, python-format
+msgid "%(count)d following"
+msgstr ""
+
+#: app/templates/user.html:15
+msgid "Edit your profile"
+msgstr ""
+
+#: app/templates/user.html:27
+msgid "Unfollow"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/_termui_impl.py:496
+msgid "{editor}: Editing failed"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/_termui_impl.py:500
+msgid "{editor}: Editing failed: {e}"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/core.py:1097
+msgid "Aborted!"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/core.py:1282
+#: env/lib/python3.8/site-packages/click/decorators.py:495
+msgid "Show this message and exit."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/core.py:1313
+#: env/lib/python3.8/site-packages/click/core.py:1339
+msgid "(Deprecated) {text}"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/core.py:1357
+msgid "Options"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/core.py:1385
+msgid "Got unexpected extra argument ({args})"
+msgid_plural "Got unexpected extra arguments ({args})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.8/site-packages/click/core.py:1398
+msgid "DeprecationWarning: The command {name!r} is deprecated."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/core.py:1605
+msgid "Commands"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/core.py:1637
+msgid "Missing command."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/core.py:1715
+msgid "No such command {name!r}."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/core.py:2271
+msgid "Value must be an iterable."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/core.py:2293
+msgid "Takes {nargs} values but 1 was given."
+msgid_plural "Takes {nargs} values but {len} were given."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.8/site-packages/click/core.py:2734
+msgid "env var: {var}"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/core.py:2764
+msgid "(dynamic)"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/core.py:2777
+msgid "default: {default}"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/core.py:2790
+msgid "required"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/decorators.py:400
+#, python-format
+msgid "%(prog)s, version %(version)s"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/decorators.py:464
+msgid "Show the version and exit."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/exceptions.py:43
+#: env/lib/python3.8/site-packages/click/exceptions.py:79
+msgid "Error: {message}"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/exceptions.py:71
+msgid "Try '{command} {option}' for help."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/exceptions.py:120
+msgid "Invalid value: {message}"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/exceptions.py:122
+msgid "Invalid value for {param_hint}: {message}"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/exceptions.py:178
+msgid "Missing argument"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/exceptions.py:180
+msgid "Missing option"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/exceptions.py:182
+msgid "Missing parameter"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/exceptions.py:184
+msgid "Missing {param_type}"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/exceptions.py:191
+msgid "Missing parameter: {param_name}"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/exceptions.py:211
+msgid "No such option: {name}"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/exceptions.py:225
+msgid "Did you mean {possibility}?"
+msgid_plural "(Possible options: {possibilities})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.8/site-packages/click/exceptions.py:261
+msgid "unknown error"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/exceptions.py:268
+msgid "Could not open file {filename!r}: {message}"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/parser.py:231
+msgid "Argument {name!r} takes {nargs} values."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/parser.py:413
+msgid "Option {name!r} does not take a value."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/parser.py:473
+msgid "Option {name!r} requires an argument."
+msgid_plural "Option {name!r} requires {nargs} arguments."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.8/site-packages/click/shell_completion.py:315
+msgid "Shell completion is not supported for Bash versions older than 4.4."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/shell_completion.py:322
+msgid "Couldn't detect Bash version, shell completion is not supported."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/termui.py:160
+msgid "Repeat for confirmation"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/termui.py:176
+msgid "Error: The value you entered was invalid."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/termui.py:178
+msgid "Error: {e.message}"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/termui.py:189
+msgid "Error: The two entered values do not match."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/termui.py:245
+msgid "Error: invalid input"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/termui.py:776
+msgid "Press any key to continue..."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/types.py:265
+msgid ""
+"Choose from:\n"
+"\t{choices}"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/types.py:299
+msgid "{value!r} is not {choice}."
+msgid_plural "{value!r} is not one of {choices}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.8/site-packages/click/types.py:389
+msgid "{value!r} does not match the format {format}."
+msgid_plural "{value!r} does not match the formats {formats}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.8/site-packages/click/types.py:409
+msgid "{value!r} is not a valid {number_type}."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/types.py:465
+msgid "{value} is not in the range {range}."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/types.py:606
+msgid "{value!r} is not a valid boolean."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/types.py:630
+msgid "{value!r} is not a valid UUID."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/types.py:811
+msgid "file"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/types.py:813
+msgid "directory"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/types.py:815
+msgid "path"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/types.py:861
+msgid "{name} {filename!r} does not exist."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/types.py:870
+msgid "{name} {filename!r} is a file."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/types.py:878
+msgid "{name} '{filename}' is a directory."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/types.py:887
+msgid "{name} {filename!r} is not readable."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/types.py:896
+msgid "{name} {filename!r} is not writable."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/types.py:905
+msgid "{name} {filename!r} is not executable."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/click/types.py:971
+msgid "{len_type} values are required, but {len_value} was given."
+msgid_plural "{len_type} values are required, but {len_value} were given."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.8/site-packages/flask_wtf/file.py:35
+#: env/lib/python3.8/site-packages/wtforms/validators.py:294
+#: env/lib/python3.8/site-packages/wtforms/validators.py:322
+msgid "This field is required."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/flask_wtf/file.py:69
+msgid "File does not have an approved extension: {extensions}"
+msgstr ""
+
+#: env/lib/python3.8/site-packages/flask_wtf/file.py:77
+msgid "File does not have an approved extension."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/flask_wtf/file.py:112
+msgid "File must be between {min_size} and {max_size} bytes."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/validators.py:87
+#, python-format
+msgid "Invalid field name '%s'."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/validators.py:100
+#, python-format
+msgid "Field must be equal to %(other_name)s."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/validators.py:146
+#, python-format
+msgid "Field must be at least %(min)d character long."
+msgid_plural "Field must be at least %(min)d characters long."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.8/site-packages/wtforms/validators.py:152
+#, python-format
+msgid "Field cannot be longer than %(max)d character."
+msgid_plural "Field cannot be longer than %(max)d characters."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.8/site-packages/wtforms/validators.py:158
+#, python-format
+msgid "Field must be exactly %(max)d character long."
+msgid_plural "Field must be exactly %(max)d characters long."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.8/site-packages/wtforms/validators.py:164
+#, python-format
+msgid "Field must be between %(min)d and %(max)d characters long."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/validators.py:217
+#, python-format
+msgid "Number must be at least %(min)s."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/validators.py:220
+#, python-format
+msgid "Number must be at most %(max)s."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/validators.py:223
+#, python-format
+msgid "Number must be between %(min)s and %(max)s."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/validators.py:357
+msgid "Invalid input."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/validators.py:416
+msgid "Invalid email address."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/validators.py:454
+msgid "Invalid IP address."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/validators.py:497
+msgid "Invalid Mac address."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/validators.py:532
+msgid "Invalid URL."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/validators.py:553
+msgid "Invalid UUID."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/validators.py:586
+#, python-format
+msgid "Invalid value, must be one of: %(values)s."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/validators.py:621
+#, python-format
+msgid "Invalid value, can't be any of: %(values)s."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/csrf/core.py:96
+msgid "Invalid CSRF Token."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/csrf/session.py:63
+msgid "CSRF token missing."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/csrf/session.py:71
+msgid "CSRF failed."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/csrf/session.py:76
+msgid "CSRF token expired."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/fields/choices.py:132
+msgid "Invalid Choice: could not coerce."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/fields/choices.py:136
+#: env/lib/python3.8/site-packages/wtforms/fields/choices.py:188
+msgid "Choices cannot be None."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/fields/choices.py:145
+msgid "Not a valid choice."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/fields/choices.py:181
+msgid "Invalid choice(s): one or more data inputs could not be coerced."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/fields/choices.py:200
+#, python-format
+msgid "'%(value)s' is not a valid choice for this field."
+msgid_plural "'%(value)s' are not valid choices for this field."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.8/site-packages/wtforms/fields/datetime.py:50
+msgid "Not a valid datetime value."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/fields/datetime.py:76
+msgid "Not a valid date value."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/fields/datetime.py:102
+msgid "Not a valid time value."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/fields/numeric.py:82
+#: env/lib/python3.8/site-packages/wtforms/fields/numeric.py:92
+msgid "Not a valid integer value."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/fields/numeric.py:167
+msgid "Not a valid decimal value."
+msgstr ""
+
+#: env/lib/python3.8/site-packages/wtforms/fields/numeric.py:196
+msgid "Not a valid float value."
+msgstr ""
+
